@@ -1,7 +1,26 @@
 aid: bitfusion-io
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitfusion-io.png
 name: Bitfusion Io
-description: Bitfusion Io is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bitfusion (bitfusion.io) was an Austin, Texas startup, backed by DCVC, that built
+  "elastic AI" infrastructure software. Its FlexDirect platform was a transparent GPU/CPU
+  virtualization layer that pooled network-attached accelerators (GPUs, FPGAs, ASICs) across
+  TCP, RoCE, and InfiniBand into a single elastic compute cluster for sharing, scaling, and
+  management of AI/ML workloads. VMware acquired Bitfusion in 2019 and folded FlexDirect into
+  vSphere as vSphere Bitfusion (subsequently end-of-lifed). The independent company no longer
+  operates, the bitfusion.io domain no longer resolves, and it exposes no public API, developer
+  portal, or discoverable artifacts. Retained here as a DCVC portfolio record; defunct as an
+  enrichment lead.
 url: https://raw.githubusercontent.com/api-evangelist/bitfusion-io/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,27 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-vmware-2019-domain-unresolved
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- GPU Virtualization
+- Artificial Intelligence
+- Machine Learning
+- Infrastructure
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
