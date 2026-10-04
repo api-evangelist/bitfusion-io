@@ -48,7 +48,7 @@ tags:
 - Company
 - GPU Virtualization
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Infrastructure
 - Acquired
 - Defunct
@@ -60,6 +60,7 @@ tags_raw:
 - Infrastructure
 - Acquired
 - Defunct
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
